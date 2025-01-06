@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "4b0c7ef9-9bc9-454b-b7bb-fe1a15e4ab42",
+		"name": "Module 11 - API Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40788362"
+	},
+	"item": [
+		{
+			"name": "https://api.trello.com/1/members/me?key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/members/me?key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"members",
+						"me"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "7987ba93f33ecbafb6b6b2d504a5e6dc"
+						},
+						{
+							"key": "token",
+							"value": "ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.trello.com/1/boards/?name=Jahnavi Nimmakayala&key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/?name=Jahnavi Nimmakayala&key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Jahnavi Nimmakayala"
+						},
+						{
+							"key": "key",
+							"value": "7987ba93f33ecbafb6b6b2d504a5e6dc"
+						},
+						{
+							"key": "token",
+							"value": "ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.trello.com/1/boards/677b862c77a18c0fdf1730be?key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/677b862c77a18c0fdf1730be?key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						"677b862c77a18c0fdf1730be"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "7987ba93f33ecbafb6b6b2d504a5e6dc"
+						},
+						{
+							"key": "token",
+							"value": "ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.trello.com/1/boards/677b862c77a18c0fdf1730be?key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/677b862c77a18c0fdf1730be?key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						"677b862c77a18c0fdf1730be"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "7987ba93f33ecbafb6b6b2d504a5e6dc"
+						},
+						{
+							"key": "token",
+							"value": "ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
