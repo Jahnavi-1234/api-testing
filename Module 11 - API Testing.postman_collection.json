@@ -7,12 +7,12 @@
 	},
 	"item": [
 		{
-			"name": "https://api.trello.com/1/members/me?key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+			"name": "https://api.trello.com/1/members/me?key={APIKey}&token={token}",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/members/me?key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+					"raw": "https://api.trello.com/1/members/me?key={APIkey}&token={token}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -25,10 +25,7 @@
 						"me"
 					],
 					"query": [
-						{
-							"key": "key",
-							"value": "7987ba93f33ecbafb6b6b2d504a5e6dc"
-						},
+					
 						{
 							"key": "token",
 							"value": "ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6"
@@ -39,12 +36,12 @@
 			"response": []
 		},
 		{
-			"name": "https://api.trello.com/1/boards/?name=Jahnavi Nimmakayala&key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+			"name": "https://api.trello.com/1/boards/?name=Jahnavi Nimmakayala&key={APIkey}&token={token}",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/boards/?name=Jahnavi Nimmakayala&key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+					"raw": "https://api.trello.com/1/boards/?name=Jahnavi Nimmakayala&key={APIkey}&token={token}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -62,10 +59,6 @@
 							"value": "Jahnavi Nimmakayala"
 						},
 						{
-							"key": "key",
-							"value": "7987ba93f33ecbafb6b6b2d504a5e6dc"
-						},
-						{
 							"key": "token",
 							"value": "ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6"
 						}
@@ -75,12 +68,12 @@
 			"response": []
 		},
 		{
-			"name": "https://api.trello.com/1/boards/677b862c77a18c0fdf1730be?key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+			"name": "https://api.trello.com/1/boards/677b862c77a18c0fdf1730be?key={APIkey}&token={token}",
 			"request": {
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/boards/677b862c77a18c0fdf1730be?key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+					"raw": "https://api.trello.com/1/boards/677b862c77a18c0fdf1730be?key={APIkey}&token={token}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -93,10 +86,6 @@
 						"677b862c77a18c0fdf1730be"
 					],
 					"query": [
-						{
-							"key": "key",
-							"value": "7987ba93f33ecbafb6b6b2d504a5e6dc"
-						},
 						{
 							"key": "token",
 							"value": "ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6"
@@ -107,12 +96,12 @@
 			"response": []
 		},
 		{
-			"name": "https://api.trello.com/1/boards/677b862c77a18c0fdf1730be?key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+			"name": "https://api.trello.com/1/boards/677b862c77a18c0fdf1730be?key={APIkey}&token={token}",
 			"request": {
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/boards/677b862c77a18c0fdf1730be?key=7987ba93f33ecbafb6b6b2d504a5e6dc&token=ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6",
+					"raw": "https://api.trello.com/1/boards/677b862c77a18c0fdf1730be?key={APIkey}&token={token}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -125,10 +114,6 @@
 						"677b862c77a18c0fdf1730be"
 					],
 					"query": [
-						{
-							"key": "key",
-							"value": "7987ba93f33ecbafb6b6b2d504a5e6dc"
-						},
 						{
 							"key": "token",
 							"value": "ATTA02dc48f717e1cc86b359efc86b697d1cb4a40f722de6626cdfc66c1b6617337f3BCAA5B6"
